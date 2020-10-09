@@ -5,9 +5,9 @@ const cors = require("cors");
 const helmet = require("helmet");
 const { NODE_ENV } = require("./config");
 const promptsRouter = require("./Prompts/prompts-router");
-const usersRouter = require('./users/users-router');
-const loginRouter = require('./login/login-router');
-const savedGamesRouter = require('./login/login-router')
+const usersRouter = require('./Users/users-router');
+const loginRouter = require('./Login/login-router');
+const savedGamesRouter = require('./Login/login-router')
 
 
 const app = express();
