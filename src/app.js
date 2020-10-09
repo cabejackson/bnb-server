@@ -7,7 +7,7 @@ const { NODE_ENV } = require("./config");
 const promptsRouter = require("./Prompts/prompts-router");
 const usersRouter = require('./Users/users-router');
 const loginRouter = require('./Login/login-router');
-const savedGamesRouter = require('./Login/login-router')
+// const savedGamesRouter = require('./Login/login-router')
 
 
 const app = express();
@@ -22,7 +22,7 @@ app.use(cors());
 app.use("/api/prompts", promptsRouter);
 app.use("/api/users", usersRouter);
 app.use("/api/login", loginRouter);
-app.use("/api/saved-games", savedGamesRouter);
+// app.use("/api/saved-games", savedGamesRouter);
 
 
 
